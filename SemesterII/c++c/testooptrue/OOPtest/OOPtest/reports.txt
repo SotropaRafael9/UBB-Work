@@ -1,0 +1,5 @@
+sun 2 3 0 false
+wind 3 5 0 false
+rain 5 5 0 true
+fog 100 5 0 false
+23 5 5 123 false

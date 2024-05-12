@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1679323854 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\domain.c
+	"Domain.h"
+	<string.h>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+
+1679322380 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\domain.h
+
+1679322967 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\dynamicarray.c
+	"Domain.h"
+
+1679388441 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\main.c
+	"Ui.h"
+	"Repository.h"
+	<stdio.h>
+	<stdlib.h>
+
+1679322380 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\ui.h
+	"service.h"
+	"undoRedo.h"
+
+1679322967 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\service.h
+	"Repository.h"
+
+1679322967 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\repository.h
+	"Domain.h"
+	"DynamicArray.h"
+
+1679322967 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\dynamicarray.h
+	"domain.h"
+
+1679322967 c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\undoredo.h
+	"DynamicArray.h"
+	"Repository.h"
+
+1679388723 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\repository.c
+	"Repository.h"
+	"Domain.h"
+	"DynamicArray.h"
+	<string.h>
+	<stdlib.h>
+	<assert.h>
+
+1679322967 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\service.c
+	"Service.h"
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+
+1679323597 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\ui.c
+	"ui.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"UndoRedo.h"
+
+1679388773 source:c:\users\rafael\desktop\c++c\a1-sotroparafael9-1\a2\a2\undoredo.c
+	"UndoRedo.h"
+	<stdlib.h>
+	<assert.h>
+

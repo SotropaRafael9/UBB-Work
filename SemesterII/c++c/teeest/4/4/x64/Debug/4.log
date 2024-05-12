@@ -1,0 +1,5 @@
+﻿  uic ..\..\..\..\..\Downloads\pisici\mainwindow.ui
+  moc ..\..\..\..\..\Downloads\pisici\mainwindow.h
+   moc: C:\Users\Rafael\Downloads\pisici\mainwindow.h: No such file
+   File 'C:\Users\Rafael\Downloads\pisici\mainwindow.ui' is not valid
+C:\Users\Rafael\AppData\Local\QtMsBuild\qt_globals.targets(293,5): error MSB4181: The "QtRunWork" task returned false but did not log an error.

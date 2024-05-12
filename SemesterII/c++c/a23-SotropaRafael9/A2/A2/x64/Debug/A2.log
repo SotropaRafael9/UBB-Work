@@ -1,0 +1,10 @@
+﻿  domain.c
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\domain.c(6,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\domain.c(6,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+  ui.c
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : the missing variadic argument 2 is required by format string '%15s'
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : this argument is used as a buffer size
+  Generating Code...
+  A2.vcxproj -> C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\x64\Debug\A2.exe

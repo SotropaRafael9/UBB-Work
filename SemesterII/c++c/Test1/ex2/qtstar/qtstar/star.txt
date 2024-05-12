@@ -1,0 +1,7 @@
+soare rosu | soarele mare | 30 | 20 | 14
+soare alb | soarele mare | 50 | 90 | 15
+bra | soarele mare | 50 | 20 | 19
+steaua verde | stele de pe cer | 80 | 80 | 10
+steaua albastra | stele de pe cer | 90 | 60 | 19
+luna rosie | wow luna | 20 | 60 | 11
+luna alba | wow luna | 70 | 10 | 12

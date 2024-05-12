@@ -1,0 +1,21 @@
+﻿  mainwindow.cpp
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(30,1): error C2011: 'Ui_MainWindow': 'class' type redefinition
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(29,7): message : see declaration of 'Ui_MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,21): error C2011: 'Ui::MainWindow': 'class' type redefinition
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(5,1): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(6,7): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(20,7): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(30,11): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(38,24): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(65): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(67,24): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'
+C:\Users\Rafael\Downloads\pisici\mainwindow.cpp(87): error C2027: use of undefined type 'Ui::MainWindow'
+C:\Users\Rafael\Desktop\c++c\teeest\ooop\ooop\x64\Debug\uic\ui_mainwindow.h(171,11): message : see declaration of 'Ui::MainWindow'

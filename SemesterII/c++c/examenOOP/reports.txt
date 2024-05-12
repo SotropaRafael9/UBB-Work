@@ -1,0 +1,6 @@
+water 5 0 9 false
+brain 11 0 5 false
+taxi 5 0 5 true
+fog 5 0 100 false
+23 5 123 5 false
+2 1 5 123 false

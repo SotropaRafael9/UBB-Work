@@ -1,0 +1,8 @@
+Rafa2 OS nodes 31 32 2023/8/28
+Rafa3 Geometry nodes 43 46 2023/5/18
+Rafa1 OOP nodes 18 28 2023/10/15
+Rafa2 DSA nodes 23 34 2022/9/23
+Rafa2 Chess vedem 30 33 2022/7/27
+Rafa1 SDA nodes 24 45 2021/6/4
+Rafa3 a w 2 3 10/06/2023
+Rafa3   0 0 

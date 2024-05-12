@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container" onmouseleave="clearSubmenus()">
+    <div class="menu-container">
+      <div class="title">MENU</div>
+      <div class="menu-list">
+        <div class="menu1 menu-item" onclick="showSubmenu(1)">menu 1</div>
+        <div class="menu2 menu-item" onclick="showSubmenu(2)">menu 2</div>
+        <div class="menu3 menu-item" onclick="showSubmenu(3)">menu 3</div>
+        <div class="menu4 menu-item" onclick="showSubmenu(4)">menu 4</div>
+        <div class="menu5 menu-item" onclick="showSubmenu(5)">menu 5</div>
+      </div>
+    </div>
+    <div class="submenu-container">
+      <div class="submenu-list">
+      </div>
+    </div>
+  </div>
+</body>
+</html>

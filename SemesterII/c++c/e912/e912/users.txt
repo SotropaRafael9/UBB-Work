@@ -1,0 +1,6 @@
+Bob 2
+1
+collector
+Anna
+2
+administrator

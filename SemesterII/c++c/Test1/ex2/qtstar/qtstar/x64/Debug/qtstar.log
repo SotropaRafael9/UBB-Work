@@ -1,0 +1,11 @@
+﻿  moc qtstar.h
+  astronomer.cpp
+  main.cpp
+  repository.cpp
+  StarsTableModel.cpp
+  UserView.cpp
+  qtstar.cpp
+  qrc_qtstar.cpp
+  moc_UserView.cpp
+  moc_qtstar.cpp
+  qtstar.vcxproj -> C:\Users\Rafael\Desktop\c++c\Test1\ex2\qtstar\x64\Debug\qtstar.exe

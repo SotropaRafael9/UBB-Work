@@ -1,0 +1,9 @@
+﻿  Reading Qt configuration (C:/Users/Rafael/Desktop/Qt/6.5.0/msvc2019_64/bin/qmake)
+  uic ..\..\..\..\..\Downloads\pisici\mainwindow.ui
+  uic QtWidgetsApplication.ui
+  rcc QtWidgetsApplication.qrc
+  moc ..\..\..\..\..\Downloads\pisici\mainwindow.h
+   File 'C:\Users\Rafael\Downloads\pisici\mainwindow.ui' is not valid
+   moc: C:\Users\Rafael\Downloads\pisici\mainwindow.h: No such file
+   RCC: Warning: No resources in 'C:\Users\Rafael\Desktop\c++c\teeest\3\3\QtWidgetsApplication.qrc'.
+C:\Users\Rafael\AppData\Local\QtMsBuild\qt_globals.targets(293,5): error MSB4181: The "QtRunWork" task returned false but did not log an error.

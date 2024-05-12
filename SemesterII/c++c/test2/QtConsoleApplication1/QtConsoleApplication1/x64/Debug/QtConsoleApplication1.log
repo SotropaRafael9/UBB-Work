@@ -1,0 +1,11 @@
+﻿  moc QtTest.h
+  ecuation.cpp
+  main.cpp
+  QtTestcpp.cpp
+  Repository.cpp
+  Service.cpp
+C:\Users\Rafael\Desktop\c++c\test2\QtConsoleApplication1\QtConsoleApplication1\Repository.h(2,10): fatal  error C1083: Cannot open include file: 'equation.h': No such file or directory (compiling source file Service.cpp)
+C:\Users\Rafael\Desktop\c++c\test2\QtConsoleApplication1\QtConsoleApplication1\ecuation.cpp(1,10): fatal  error C1083: Cannot open include file: 'equation.h': No such file or directory
+C:\Users\Rafael\Desktop\c++c\test2\QtConsoleApplication1\QtConsoleApplication1\main.cpp(1,10): fatal  error C1083: Cannot open include file: 'QtTest3.h': No such file or directory
+C:\Users\Rafael\Desktop\c++c\test2\QtConsoleApplication1\QtConsoleApplication1\Repository.h(2,10): fatal  error C1083: Cannot open include file: 'equation.h': No such file or directory (compiling source file Repository.cpp)
+C:\Users\Rafael\Desktop\c++c\test2\QtConsoleApplication1\QtConsoleApplication1\Repository.h(2,10): fatal  error C1083: Cannot open include file: 'equation.h': No such file or directory (compiling source file QtTestcpp.cpp)

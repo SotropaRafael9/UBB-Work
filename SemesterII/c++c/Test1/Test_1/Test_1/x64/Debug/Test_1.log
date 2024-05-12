@@ -1,0 +1,27 @@
+﻿  domain.cpp
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(5,21): error C2082: redefinition of formal parameter 'name'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(6,28): error C2082: redefinition of formal parameter 'nationality'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(7,21): error C2082: redefinition of formal parameter 'team'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(8,24): error C2082: redefinition of formal parameter 'number_of_goals'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(11,27): error C2373: 'Player::get_name': redefinition; different type modifiers
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\Domain.h(16,14): message : see declaration of 'Player::get_name'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(16,27): error C2373: 'Player::get_nationality': redefinition; different type modifiers
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\Domain.h(17,14): message : see declaration of 'Player::get_nationality'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\domain.cpp(21,27): error C2373: 'Player::get_team': redefinition; different type modifiers
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\Domain.h(18,14): message : see declaration of 'Player::get_team'
+  main.cpp
+  repository.cpp
+  service.cpp
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(22,9): error C2374: 'new_player': redefinition; multiple initialization
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(21,9): message : see declaration of 'new_player'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(23,9): error C2374: 'new_player': redefinition; multiple initialization
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(21,9): message : see declaration of 'new_player'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(24,9): error C2374: 'new_player': redefinition; multiple initialization
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(21,9): message : see declaration of 'new_player'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(25,9): error C2374: 'new_player': redefinition; multiple initialization
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(21,9): message : see declaration of 'new_player'
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(26,9): error C2374: 'new_player': redefinition; multiple initialization
+C:\Users\Rafael\Desktop\c++c\Test1\Test_1\Test_1\service.cpp(21,9): message : see declaration of 'new_player'
+  Test.cpp
+  ui.cpp
+  Generating Code...

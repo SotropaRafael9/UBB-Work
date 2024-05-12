@@ -1,0 +1,18 @@
+﻿  CSVUserRepo.cpp
+  Domain.cpp
+  DynamicVector.cpp
+  HTMLUserRepo.cpp
+  Repository.cpp
+C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\A7\Repository.cpp(57,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\A7\Repository.cpp(103,3): warning C4227: anachronism used: qualifiers on reference are ignored
+  Service.cpp
+  Solution.cpp
+  Tests.cpp
+  UI.cpp
+C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\A7\UI.cpp(56,32): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  UserRepo.cpp
+C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\A7\UserRepo.cpp(24,27): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\A7\UserRepo.cpp(64,4): warning C4227: anachronism used: qualifiers on reference are ignored
+  UserService.cpp
+  Generating Code...
+  A7.vcxproj -> C:\Users\Rafael\Desktop\c++c\a6-SotropaRafael9-1\A6\x64\Debug\A7.exe

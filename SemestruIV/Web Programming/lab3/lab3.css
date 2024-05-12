@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  display: flex; /* Use flexbox to control the layout */
+  /*justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  height: 80px;
+}
+
+  .topnav a {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 10px 22px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+      .topnav a:hover {
+          color: royalblue;
+      }
+
+
+  /*.topnav .search-container {
+  float: right;
+}*/
+
+  .topnav input[type=text] {
+      padding: 6px;
+      background-color: #F4F6F6;
+      font-size: 15px;
+      border: none;
+      width: 650px;
+      height: 38px;
+      border: 1px solid black;
+      border-radius: 20px; /*make the corners round*/
+      padding-right: 30px; /* Add space for the icon */
+  }
+
+.button {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px; /* Adjust padding for spacing */
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px; /* Adjust font size */
+  cursor: pointer;
+  margin: 1px;
+}
+
+.buttonLogIn:hover, .buttonWorld:hover {
+  background-color: #E5E8E8;
+}
+
+.buttonSignUp {
+  background-color: black;
+  color: white;
+}
+
+.black-part {
+  background-color: #f7f9fa;
+  height: 350px; /* Adjust height as needed */
+  width: 100%;
+  position: fixed;
+  top: 80px; /* Height of the navigation bar */
+  z-index: 1; /* Ensure it's behind the white part */
+}
+
+.white-part {
+  border: 2px solid white;
+  background-color: white;
+  height: 600px; /* Adjust height as needed */
+  width: 320px; /* Adjust width as needed */
+  position: absolute;
+  top: 120px; /* Height of the navigation bar plus space */
+  right: 170px; /* Add space from the right margin */
+  z-index: 2; /* Ensure it's in front of the black part */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.white-part-down {
+  background-color: white; /* Grey color */
+  height: 300px; /* Adjust height as needed */
+  width: 750px; /* Adjust width to fill the width of the viewport */
+  position: absolute;
+  top: 450px; /* Position below the black part with space */
+  left: 250px; /* Add space from the left margin */
+  z-index: 0; /* Ensure it's behind other elements */
+  padding: 20px; /* Add padding for text */
+  border: 1px solid black;
+}
+
+p.paragraf1 {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+div.buttons {
+  margin-left: 20px;
+}
+
+button.butonMov {
+  width: 270px;
+  height: 45px;
+  background-color: #B93BD8;
+  margin: 0px;
+  color: white;
+  font-size: 17px;
+}
+
+button.butonAlb {
+  width: 270px;
+  height: 45px;
+  margin-top: 5px;
+  font-size: 17px;
+}
+
+button.butonMov:hover {
+  background-color: #9D2DB8;
+}
+
+button.butonAlb:hover {
+  background-color: #C6C9CF;
+}
+
+p.moneyBack {
+  font-size: 10px;
+  text-align: center;
+  color: #56585A;
+}
+
+p.include {
+  text-align: left;
+  margin-left: 20px;
+}
+
+table {
+  margin-left: 20px;
+}
+
+p.paragrafNegru {
+  margin-left: 250px;
+  
+}
+
+/* p.paragrafNegru span>b{
+
+  color :black;
+} */
+
+
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  list-style-type: "\2713";
+}

@@ -1,0 +1,10 @@
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\bin\Debug\lab1.1.exe.config
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\bin\Debug\lab1.1.exe
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\bin\Debug\lab1.1.pdb
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1.1.csproj.AssemblyReference.cache
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1._1.Form1.resources
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1._1.Properties.Resources.resources
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1.1.csproj.GenerateResource.cache
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1.1.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1.1.exe
+C:\Users\Rafael\Desktop\UbbWork\HomeWorks\SemestruIV\DataBase\lab1\lab1.1\obj\Debug\lab1.1.pdb

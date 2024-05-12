@@ -1,0 +1,2536 @@
+ID: 1
+Execution stack: 
+(Ref(boolean) a|(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}))
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Ref(boolean) a
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Ref(boolean) a
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+int counter
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+int counter
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 2
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 3
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 4
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 5
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 6
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 7
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 8
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Symbol table: 
+a -> (0, boolean)
+counter -> 10
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 28
+Execution stack: 
+Print(ReadHeap(a))
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 28
+Execution stack: 
+Symbol table: 
+a -> (0, boolean)
+counter -> 9
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Ref(boolean) a|(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}))
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Ref(boolean) a
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Ref(boolean) a
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(int counter|while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)})
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+int counter
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+int counter
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+counter = counter + 1
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 0
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+
+ID: 1
+Execution stack: 
+(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)
+while(counter < 10){(Fork(Fork((New(a, counter)|Print(ReadHeap(a)))))|counter = counter + 1)}
+Symbol table: 
+a -> (0, boolean)
+counter -> 1
+Heap: 
+{}
+Output list: 
+File table:
+

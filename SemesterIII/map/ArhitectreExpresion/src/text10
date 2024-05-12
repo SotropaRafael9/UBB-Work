@@ -1,0 +1,13 @@
+Execution stack: 
+(Ref(int) v|(New(v, 20)|(Ref(Ref(int)) a|(WriteHeap(a, v)|(WriteHeap(v, 30)|(Print(ReadHeap(ReadHeap(a)))|WriteHeap(v, 90)))))))
+Symbol table: 
+Output list: 
+File table:
+
+Execution stack: 
+Ref(int) v
+(New(v, 20)|(Ref(Ref(int)) a|(WriteHeap(a, v)|(WriteHeap(v, 30)|(Print(ReadHeap(ReadHeap(a)))|WriteHeap(v, 90))))))
+Symbol table: 
+Output list: 
+File table:
+

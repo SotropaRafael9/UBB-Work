@@ -1,0 +1,9 @@
+.rainbow {
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    width: 1050px;
+    height: 100px;
+    margin-top: 100px;
+    transform: perspective(341px) rotateY(-20deg);
+    margin-left: -185px;
+
+}

@@ -1,0 +1,164 @@
+======ID======
+2
+======EXE_STACK======
+{DeclarationStatement{v : int }
+; v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+}
+======SYM_TABLE======
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+2
+======EXE_STACK======
+{v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+DeclarationStatement{v : int }
+
+}
+======SYM_TABLE======
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{DeclarationStatement{v : int }
+; v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+}
+======SYM_TABLE======
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+DeclarationStatement{v : int }
+
+}
+======SYM_TABLE======
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+DeclarationStatement{v : int }
+
+}
+======SYM_TABLE======
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+}
+======SYM_TABLE======
+v : 0
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{v = ValueExpression(4)
+; WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+}
+======SYM_TABLE======
+v : 0
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+v = ValueExpression(4)
+
+}
+======SYM_TABLE======
+v : 0
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+v = ValueExpression(4)
+
+}
+======SYM_TABLE======
+v : 0
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}
+======ID======
+15
+======EXE_STACK======
+{WhileStatement{RelationalExpression{expression1=VariableExpression(v), expression2=ValueExpression(0), operator='>'}, Print{VariableExpression(v)}
+; v = ArithmeticExpression{expression1=VariableExpression(v), expression2=ValueExpression(1), operation=-}
+}
+; Print{VariableExpression(v)}
+
+}
+======SYM_TABLE======
+v : 4
+======OUT======
+======FILE_TABLE======
+======HEAP======
+{}

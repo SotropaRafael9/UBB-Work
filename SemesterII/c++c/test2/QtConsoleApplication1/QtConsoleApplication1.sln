@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtConsoleApplication1", "QtConsoleApplication1\QtConsoleApplication1.vcxproj", "{B989E42C-ECE1-4541-8242-7CEB3E326DAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B989E42C-ECE1-4541-8242-7CEB3E326DAD}.Debug|x64.ActiveCfg = Debug|x64
+		{B989E42C-ECE1-4541-8242-7CEB3E326DAD}.Debug|x64.Build.0 = Debug|x64
+		{B989E42C-ECE1-4541-8242-7CEB3E326DAD}.Release|x64.ActiveCfg = Release|x64
+		{B989E42C-ECE1-4541-8242-7CEB3E326DAD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BEB3B0D-44CC-442C-94BC-6EC5CBF128C9}
+	EndGlobalSection
+EndGlobal

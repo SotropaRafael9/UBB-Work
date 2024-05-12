@@ -1,0 +1,15 @@
+﻿  main.c
+  repository.c
+  service.c
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\service.c(139,83): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\service.c(140,58): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\service.c(165,79): warning C4090: 'function': different 'const' qualifiers
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\service.c(166,54): warning C4090: 'function': different 'const' qualifiers
+  ui.c
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : the missing variadic argument 2 is required by format string '%15s'
+C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\A2\ui.c(61,36): message : this argument is used as a buffer size
+  undoRedo.c
+  Generating Code...
+  A2.vcxproj -> C:\Users\Rafael\Desktop\c++c\a1-SotropaRafael9-1\A2\x64\Debug\A2.exe

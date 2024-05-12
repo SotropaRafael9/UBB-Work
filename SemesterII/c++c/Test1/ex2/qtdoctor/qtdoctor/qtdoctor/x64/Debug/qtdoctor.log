@@ -1,0 +1,39 @@
+﻿  doctorwindow.cpp
+  main.cpp
+  Repository.cpp
+  Services.cpp
+  statisticswindow.cpp
+C:\Users\Rafael\Downloads\doctor\Repository.cpp(18,18): error C2065: 'doctorsFile': undeclared identifier
+C:\Users\Rafael\Downloads\doctor\Repository.h(7,17): error C2011: 'Repository': 'class' type redefinition (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\Repository.h(7,7): message : see declaration of 'Repository' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\Services.h(5,16): error C2011: 'Services': 'class' type redefinition (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\Services.h(5,7): message : see declaration of 'Services' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\statisticswindow.h(27,14): error C2079: 'StatisticsWindow::services' uses undefined class 'Services' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\main.cpp(7,16): error C2079: 'repository' uses undefined class 'Repository'
+C:\Users\Rafael\Downloads\doctor\main.cpp(8,14): error C2079: 'services' uses undefined class 'Services'
+C:\Users\Rafael\Downloads\doctor\main.cpp(8,23): error C2440: 'static_cast': cannot convert from 'int *' to 'const std::shared_ptr<Repository>'
+C:\Users\Rafael\Downloads\doctor\main.cpp(8,23): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Rafael\Downloads\doctor\main.cpp(10,5): error C3531: 'doctor': a symbol whose type contains 'auto' must have an initializer
+C:\Users\Rafael\Downloads\doctor\main.cpp(10,21): error C2143: syntax error: missing ';' before ':'
+C:\Users\Rafael\Downloads\doctor\main.cpp(10,52): error C2143: syntax error: missing ';' before ')'
+C:\Users\Rafael\Downloads\doctor\main.cpp(12,48): error C2665: 'DoctorWindow::DoctorWindow': no overloaded function could convert all the argument types
+C:\Users\Rafael\Downloads\doctor\doctorwindow.h(35,1): message : could be 'DoctorWindow::DoctorWindow(const DoctorWindow &)' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\main.cpp)
+C:\Users\Rafael\Downloads\doctor\main.cpp(12,48): message : 'DoctorWindow::DoctorWindow(const DoctorWindow &)': cannot convert argument 1 from 'int' to 'const DoctorWindow &'
+C:\Users\Rafael\Downloads\doctor\main.cpp(12,69): message : Reason: cannot convert from 'int' to 'const DoctorWindow'
+C:\Users\Rafael\Downloads\doctor\main.cpp(12,69): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Rafael\Downloads\doctor\main.cpp(12,48): message : while trying to match the argument list '(int)'
+C:\Users\Rafael\Downloads\doctor\main.cpp(17,62): error C2440: 'initializing': cannot convert from 'initializer list' to 'StatisticsWindow'
+C:\Users\Rafael\Downloads\doctor\main.cpp(17,62): message : No constructor could take the source type, or constructor overload resolution was ambiguous
+C:\Users\Rafael\Downloads\doctor\Repository.h(7,17): error C2011: 'Repository': 'class' type redefinition (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\statisticswindow.cpp)
+C:\Users\Rafael\Downloads\doctor\Repository.h(7,7): message : see declaration of 'Repository' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\statisticswindow.cpp)
+C:\Users\Rafael\Downloads\doctor\Services.h(5,16): error C2011: 'Services': 'class' type redefinition (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\statisticswindow.cpp)
+C:\Users\Rafael\Downloads\doctor\Services.h(5,7): message : see declaration of 'Services' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\statisticswindow.cpp)
+C:\Users\Rafael\Downloads\doctor\statisticswindow.h(27,14): error C2079: 'StatisticsWindow::services' uses undefined class 'Services' (compiling source file ..\..\..\..\..\..\..\Downloads\doctor\statisticswindow.cpp)
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(16,64): error C2027: use of undefined type 'Services'
+C:\Users\Rafael\Downloads\doctor\Services.h(5,7): message : see declaration of 'Services'
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(16,71): error C2439: 'StatisticsWindow::services': member could not be initialized
+C:\Users\Rafael\Downloads\doctor\statisticswindow.h(27,14): message : see declaration of 'StatisticsWindow::services'
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(36,5): error C2530: 'elem': references must be initialized
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(36,5): error C3531: 'elem': a symbol whose type contains 'auto' must have an initializer
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(36,26): error C2143: syntax error: missing ';' before ':'
+C:\Users\Rafael\Downloads\doctor\statisticswindow.cpp(36,53): error C2143: syntax error: missing ';' before ')'

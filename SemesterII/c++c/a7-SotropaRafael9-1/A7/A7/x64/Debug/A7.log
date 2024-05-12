@@ -1,0 +1,2 @@
+﻿  UserService.cpp
+C:\Users\Rafael\Desktop\c++c\a7-SotropaRafael9-1\A7\A7\UserService.cpp(77): error C4700: uninitialized local variable 'repo' used

@@ -1,0 +1,234 @@
+Execution stack: 
+[(string varf|(varf = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"|(string vars|(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))))))))]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(varf = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"|(string vars|(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))))))), string varf]
+Symbol table: 
+{}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(varf = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"|(string vars|(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))))))))]
+Symbol table: 
+{varf=""}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(string vars|(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))))))), varf = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+Symbol table: 
+{varf=""}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(string vars|(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))))), string vars]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"|(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars=""}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))))), vars = "C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars=""}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(Print(varf)|(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))), Print(varf)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+[]
+File table: 
+{}
+
+Execution stack: 
+[(open(varf)|(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{}
+
+Execution stack: 
+[(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))), open(varf)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{}
+
+Execution stack: 
+[(open(vars)|(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))), open(vars)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(int varc|(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf))))), int varc]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt"}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Read File|(Print(varc)|(Read File|(Print(varc)|close(varf)))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=0}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Print(varc)|(Read File|(Print(varc)|close(varf)))), Read File]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=0}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Print(varc)|(Read File|(Print(varc)|close(varf))))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=15}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Read File|(Print(varc)|close(varf))), Print(varc)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=15}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt"]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Read File|(Print(varc)|close(varf)))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=15}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Print(varc)|close(varf)), Read File]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=15}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[(Print(varc)|close(varf))]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=50}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[close(varf), Print(varc)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=50}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[close(varf)]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=50}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15, 50]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89, C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt=java.io.BufferedReader@4bf558aa}
+
+Execution stack: 
+[]
+Symbol table: 
+{varf="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", vars="C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt", varc=50}
+Output list: 
+["C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test.txt", 15, 50]
+File table: 
+{C:\Users\Rafael\Desktop\map\ArhitectreExpresion\src\test2.txt=java.io.BufferedReader@2d38eb89}
+
