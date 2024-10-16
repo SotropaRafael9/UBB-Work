@@ -13,10 +13,6 @@ class Graph:
     _costs : list
     def __init__(self, vertices):
 
-#        verices - iterable of vertices [1,2,3,4,5,6]
-#        edges - iterable of tuples
-#       [(1,2, 5), (6,4, -3), (3,1, 18), (2,2, 6), (5,3,4)]
-
         self._outbound = dict()  # a dictionary that stores the outbound neighbours for a vertex
         self._inbound = dict()  # a dictionary that stores the inbound neighbours for a vertex
         self._costs = dict()  # a dictionary that stores the costs for an edge
@@ -26,10 +22,7 @@ class Graph:
             self._outbound[vertex] = []
             self._inbound[vertex] = []
 
-        # for x, y, z in edges:
-        #     self._outbound[x].append(y)
-        #     self._inbound[y].append(x)
-        #     self._costs[(x, y)] = z
+        
 
     def is_edge(self, x, y):
         # a function that verifies if there is an edge between x and y (x,y - vertices)
@@ -75,57 +68,49 @@ class Graph:
         return len(self._inbound)            
     def parse_vertices(self):
         # a function that returns an iterable of the vertices
-        if len(self._outbound) == 0:
-            raise GraphException("There aren't any vertices.")
+        
         return list(range(self.get_vertices_count()))
 
 
     def find_edge(self, x, y):
         # a function that verifies if there is an edge between vertices x and y and returns the cost of it if yes or raises an exception otherwise
-        if self.is_edge(x, y) is False:
-            raise GraphException("There is no edge between these vertices.")
+        
         return self._costs[(x, y)]
 
     def parse_outbound(self, vertex):
         # a function that returns an iterable of the outbound neighbours of vertex x or None if x is not a vertex
-        if not self.is_vertex(vertex):
-            raise GraphException("aaaa")
+        
         return [(vertex, neighboar)for neighboar in self._outbound[vertex]]
 
     def parse_outbound_neighboar(self, vertex):
-        if not self.is_vertex(vertex):
-            raise GraphException("is not here")
         return self._outbound[vertex][:]
 
 
     def parse_inbound(self, x):
         # a function that returns an iterable of the inbound neighbours of vertex x or None if x is not a vertex
-        if x not in self.parse_vertices():
-            raise GraphException("The given value is not a vertex 1.")
+        
         return [y for y in self._inbound[x]]
 
     def parse_outbound_with_costs(self, x):
         # a function that returns an iterable of the edge costs of the outbound neighbours of vertex x or None if x is not a vertex
-        if x not in self.parse_vertices():
-            raise GraphException("The given value is not a vertex 2.")
+       
         return [self._costs[(x, y)] for y in self._outbound[x]]
 
     def parse_inbound_with_costs(self, x):
         # a function that returns an iterable of the edge costs of the inbound neighbours of vertex x or None if x is not a vertex
-        if x not in self.parse_vertices():
-            raise GraphException("The given value is not a vertex 3.")
+        
         return [self._costs[(y, x)] for y in self._inbound[x]]
 
     def get_degree_out(self, x):
         # a function that returns the outbound degree of the vertex x if this one exists
-        if x not in self._outbound:
-            raise GraphException("The given value is not a vertex 4.")
+        # if x not in self._outbound:
+        #     raise GraphException("The given value is not a vertex 4.")
         return len(self._outbound[x])
 
     def get_degree_in(self, x):
         # a function that returns the inbound degree of the vertex x if this one exists
-        if x not in self._inbound:
-            raise GraphException("The given value is not a vertex. 5")
+        # if x not in self._inbound:
+        #     raise GraphException("The given value is not a vertex. 5")
         return len(self._inbound[x])
 
     def parse_inbound_neighbours(self, vertex):
@@ -134,15 +119,13 @@ class Graph:
         return self.inbound[vertex][:]
     def add_vertex(self, x):
         # a function that adds a vertex to the graph
-        if x in self.parse_vertices():
-            raise GraphException("The given value is a vertex.6")
+        
         self._outbound[x] = []
         self._inbound[x] = []
 
     def remove_vertex(self, x):
         # a function that removes a vertex from the graph
-        if x not in self.parse_vertices():
-            raise GraphException("The given value is not a vertex.7")
+        
 
         for y in self.parse_vertices():
             if x in self.parse_outbound(y):
@@ -153,89 +136,13 @@ class Graph:
                 self._inbound[y].remove(x)
         self._inbound.pop(x)
         self._outbound.pop(x)
-
-#complexity O(n log n)
-    def find_the_lowest_cost_walk(self, vertex1 : int, vertex2 : int):
-            if not self.is_vertex(vertex1):
-                raise GraphException("the vertex {} doesn't exist!".format(vertex1))
-            if not self.is_vertex(vertex2):
-                raise GraphException("the vertex {} doesn't exist!".format(vertex2))
-            
-            q = PriorityQueue()
-
-            prev = {vertex: -1 for vertex in self.parse_vertices()} 
-            dist = {vertex: float('inf') for vertex in self.parse_vertices()} 
-            dist[vertex1] = 0
-            q.put((dist[vertex1], vertex1))
-            found = False
-            while not q.empty() and not found:
-                (ceva, x) = q.get()
-                if x == vertex2:
-                    found = True
-                for y in self._outbound[x]:
-                    if dist[y] is float('inf') or dist[x] + self.get_cost(x, y) < dist[y]:
-                        dist[y] = dist[x] + self.get_cost(x, y)
-                        q.put((dist[y], y))
-                        prev[y] = x
-            if found is False:
-                raise GraphException("no walk between {} and {}.".format(vertex1, vertex2))
-            return (dist[vertex2], prev)
+    # complexity O(n log n)
     
-
-
-
-    # def reconstruct_cheapest_path(self, start_vertex, end_vertex, costs):
-    #     path = [start_vertex]
-    #     while path[-1] != end_vertex:
-    #         # Get the lowest path cost neighboar
-    #         minCost = float('infinity')
-    #         minVertex = None
-    #         for vertex in self.parse_inbound_neighbours(path[-1]):
-    #             if costs[vertex] < minCost:
-    #                 minCost = costs[vertex]
-    #                 minVertex = vertex
-    #         path.append(minVertex)
-    #     path.reverse()
-    #     return path
-
-    # def find_lowest_cost_between_the_give_vertices(self, start_vertex, end_vertex):
-    #    if not self.is_vertex(start_vertex) or not self.is_vertex(end_vertex):
-    #        raise GraphException()
-    #    #no path
-    #    if (start_vertex == end_vertex):
-    #        return [0, [start_vertex]]
-    #    #Dijkstra's algorithm
-    #    costs = [float('infinity') ] * (len(self._outbound)+1)
-    #    found = [False] * (len(self._inbound))
-
-       
-    #     # The cost of the start vertex to all the vertexes is the cost of the edge.
-    #    for vertex in self.parse_vertices():
-    #     try:
-    #             costs[vertex] = self.get_cost(start_vertex, vertex)
-    #     except:
-    #         pass
-
-    #     # The first vertex is always found and has a cost of 0.
-    #     costs [start_vertex] = 0
-    #     found [start_vertex] = True
-    #     for vertex in self .parse_vertices () :
-    #     # Go trough all the not added vertexes and find the one with the lowest cost.
-    #         minPosition = -1
-    #         for position in self.parse_vertices () :
-    #             if not found [position] and (minPosition == 1 or costs [position] < costs [minPosition]):
-    #                 minPosition = position
-    #             # If a minimum vertex has been found.
-    #             if minPosition > - 1:
-    #                 found [minPosition] = True
-    #             # Update the cost of all the neighbours of the current vertex.
-    #                 for neighbour in self.parse_outbound_neighboar(minPosition):
-    #                     costs[neighbour] = min(costs[neighbour], costs[minPosition] + self.get_cost(minPosition, neighbour))
-    #     return [costs[end_vertex], self.reconstruct_cheapest_path(start_vertex, end_vertex, costs)]
+    
+    
     
     def get_cost(self, source : int, target :int):
-        if not self.is_vertex(source) or not self.is_vertex(target):
-            raise Exception()
+        
         return self._costs[(source), target]
     
     def set_edge_id(self, x, y):
@@ -253,8 +160,6 @@ class Graph:
 
     def add_edge(self, x, y, cost):
         # a function that adds an edge to the graph where x and y are the vertices
-        if self.is_edge(x, y):
-            raise GraphException("There already is an edge between these vertices.")
         self._outbound[x].append(y)
         self._inbound[y].append(x)
         self._costs[(x, y)] = cost
@@ -275,8 +180,6 @@ class Graph:
 
     def remove_edge(self, x, y):
         # a function that removes an edge from the graph if it exists (where x and y are vertices)
-        if self.is_edge(x, y) is False:
-            raise GraphException("There is no edge between these vertices.")
         del self._costs[(x, y)]
 
         self._outbound[x].remove(y)
@@ -288,49 +191,104 @@ class Graph:
 
     def modify_cost(self, x, y, cost):
         # a function that modifies the cost of an edge if it exists
-        if self.is_edge(x, y) is False:
-            raise GraphException("There is no edge between these vertices.")
         self._costs[(x, y)] = cost
-
-    def msp_prim(self, start_vertex):
-    # a function that returns a minimum spanning tree of the graph using Prim's algorithm
     
-        if len(self._outbound) == 0:
-            raise GraphException("There aren't any vertices.")  # Raise an exception if there are no vertices in the graph
-            
-        visited = [False] * len(self._outbound)  # Create a list to track visited vertices, initially all set to False
-        visited[start_vertex] = True  # Mark the start_vertex as visited
+    def find_the_lowest_walk(self, vertex1 : int, vertex2 : int):
+        # finds a lowest length path between them, by using a forward breadth-first search from the starting vertex.
+
+        queue = deque([vertex1])
+        visited = set([vertex1])
+        predecessors = {}
+
+        while queue:
+
+            current_vertex = queue.popleft()
+            if current_vertex == vertex2:
+                break
+            for neighbor in self.parse_outbound_neighboar(current_vertex):
+                if neighbor not in visited:
+                    queue.append(neighbor)
+                    visited.add(neighbor)
+                    predecessors[neighbor] = current_vertex
+
+        path = [vertex2]
+        current_vertex = vertex2
+
+        if vertex2 in predecessors:
+            while current_vertex != vertex1:
+                next_vertex = predecessors[current_vertex]
+                path.append(next_vertex)
+                current_vertex = next_vertex
+            return path
+        else:
+            return None
+
+
         
-        edges = []  # Initialize an empty list to store the edges of the minimum spanning tree
+    
+
+    def dijkstra(graph, source, target):
+        # Initialize distances with infinity for all vertices except the source.
+        distances = {vertex: float('inf') for vertex in graph.parse_vertices()}
+        distances[source] = 0
+
+        # Initialize the priority queue with the source vertex and its distance.
+        pq = PriorityQueue()
+        pq.put((0, source))
+
+        # Initialize predecessors.
+        predecessors = {vertex: None for vertex in graph.parse_vertices()}
+
+        while not pq.empty():
+            current_distance, current_vertex = pq.get()
+
+            for neighbor in graph.parse_outbound_neighboar(current_vertex):
+                # Calculate the new distance.
+                new_distance = current_distance + graph.get_cost(current_vertex, neighbor)
+
+                if new_distance < distances[neighbor]:
+                    distances[neighbor] = new_distance
+                    predecessors[neighbor] = current_vertex
+                    pq.put((new_distance, neighbor))
+
+        # Reconstruct the path from target to source.
+        path = []
+        current_vertex = target
+        while current_vertex is not None:
+            path.insert(0, current_vertex)
+            current_vertex = predecessors[current_vertex]
+
+        return path
+
         
-        while len(edges) < len(self._outbound) - 1:
-            # Repeat until the number of edges in the MST is one less than the total number of vertices
-            
-            min_cost = float('inf')  # Initialize the minimum cost to infinity
-            min_edge = None  # Initialize the minimum cost edge as None
-            
-            for vertex in self.parse_vertices():
-                # Iterate over all vertices in the graph using the parse_vertices method
-                
-                if visited[vertex] is True:
-                    # Check if the vertex has been visited
-                    
-                    for neighbour in self.parse_outbound_neighboar(vertex):
-                        # Iterate over the neighbors of the current vertex using the parse_outbound_neighboar method
-                        
-                        if visited[neighbour] is False and self.get_cost(vertex, neighbour) < min_cost:
-                            # Check if the neighbour has not been visited and the cost of the edge is smaller than the current minimum cost
-                            
-                            min_cost = self.get_cost(vertex, neighbour)  # Update the minimum cost
-                            min_edge = (vertex, neighbour)  # Update the minimum cost edge
-            
-            if min_edge is None:
-                raise GraphException("The graph is not connected.")  # Raise an exception if no minimum cost edge is found, indicating the graph is not connected
-            
-            edges.append(min_edge)  # Add the minimum cost edge to the edges list
-            visited[min_edge[1]] = True  # Mark the second vertex of the minimum cost edge as visited
-            
-        return edges  # Return the list of edges representing the minimum spanning tree
+    def msp_prim(self, start_vertex):
+        # Initialize the priority queue with the start vertex and its distance.
+        pq = PriorityQueue()
+        pq.put((0, start_vertex))
+
+        # Initialize the set of visited vertices.
+        visited = set()
+
+        # Initialize the minimum spanning tree.
+        msp = []
+
+        while not pq.empty():
+            current_cost, current_vertex = pq.get()
+
+            if current_vertex in visited:
+                continue
+
+            visited.add(current_vertex)
+
+            for neighbor in self.parse_outbound_neighboar(current_vertex):
+                if neighbor not in visited:
+                    pq.put((self.get_cost(current_vertex, neighbor), neighbor))
+                    msp.append((current_vertex, neighbor))
+
+        return msp
+        
+        
+    
 
 def build_random_graph(number_of_vertices, number_of_edges):
     # A function that receives 2 integers (number_of_vertices and number_of_edges) and generates and returns a random graph.
@@ -347,34 +305,7 @@ def build_random_graph(number_of_vertices, number_of_edges):
 
     return generated_graph
 
-def lowest_length_path(graph, start_vertex, end_vertex):
-    # Perform a backward breadth-first search starting from the ending vertex.
-    queue = deque([end_vertex])
-    visited = set([end_vertex])
-    successors = {}
 
-    while queue:
-        current_vertex = queue.popleft()
-        if current_vertex == start_vertex:
-            break
-        for neighbor in graph.parse_inbound(current_vertex):
-            if neighbor not in visited:
-                queue.append(neighbor)
-                visited.add(neighbor)
-                successors[neighbor] = current_vertex
-
-    # Reconstruct the lowest length path from the start vertex to the end vertex.
-    path = [start_vertex]
-    current_vertex = start_vertex
-    if start_vertex in successors:
-        while current_vertex != end_vertex:
-            next_vertex = successors[current_vertex]
-            path.append(next_vertex)
-            current_vertex = next_vertex
-        #path.reverse()
-        return path
-    else:
-        return None
     
     
 
@@ -388,8 +319,7 @@ def write_graph_to_file(graph, file_path):
     f = open(file_path, "wt")
     first_line = str(graph.number_vertices) + " " + str(graph.number_of_edges) + "\n"
     f.write(first_line)
-    if len(graph.parse_vertices()) == 0:
-        raise ValueError("Can't write anything.")
+    
     for edge in graph.costs:
         line = str(edge[0]) + " " + str(edge[1]) + " " + str(graph.find_edge(edge[0], edge[1])) + "\n"
         f.write(line)
@@ -401,44 +331,54 @@ def write_graph_to_file(graph, file_path):
 
 
 def read_graph(file_path)->Graph:
-    with(open(file_path, "r")as file):
+
+    with open(file_path, "r") as file:
         lines = file.readlines()
-        [vertices, endge] = [int(element) for element in lines[0].split(' ')]
+        vertices, edges = map(int, lines[0].split())
         result = Graph(vertices)
-        for index in range(1, endge+1):
-            result.add_edge(*[int(element)for element in lines[index].split(' ')]) 
-        file.close()
-        return result
-    #a function that reads a graph from a given file path and returns an object of class Graph
-    # f = open(file_path, "rt")
-    # line = f.readline()
-    # if len(line) < 3:
-    #     raise ValueError("Number of vertices/edges is missing.")
-    # edge_set = list()
-    # elements = line.split()
-    # vertices_nr = int(elements[0])
-    # edges_nr = int(elements[1])
-    # for line in f.readlines():
-    #     if len(line) > 1:
-    #         elements = line.split()
-    #         out_vertex = int(elements[0])
-    #         in_vertex = int(elements[1])
-    #         cost = int(elements[2])
-    #         edge_set.append((out_vertex, in_vertex, cost))
 
-    # new_graph = Graph(range(vertices_nr), edge_set)
-    # return new_graph
+        # Construct outbound edges and costs directly
+        result._outbound = {vertex: [] for vertex in range(vertices)}
+        result._costs = {}
 
-# def random_graph(number_of_vertices, number_of_edges):
+        for line in lines[1:]:
+            x, y, cost = map(int, line.split())
+            result._outbound[x].append(y)
+            result._costs[(x, y)] = cost
 
-#     if number_of_vertices **2 > number_of_edges:
-#         return
-#     new_graph = Graph()
-#     for vertix in range(number_of_vertices):
-        
-#     index = 0
-#     while index < number_of_edges:
-        
+    return result
+ 
 
+# # finds a lowest length path between them, by using a forward breadth-first search from the starting vertex.
 
+        # queue = deque([vertex1])  # Initialize a queue with the start vertex.
+        # visited = set([vertex1])  # Initialize a set to keep track of visited vertices.
+        # predecessors = {}  # Initialize a dictionary to store predecessors for path reconstruction.
 
+        # # Explore outbound neighbors of the current vertex.
+        # while queue:
+        #     current_vertex = queue.popleft()
+        #     if current_vertex == vertex2:
+        #         break
+        #     for neighbor in self.parse_outbound_neighboar(current_vertex):
+        #         if neighbor not in visited:
+        #             queue.append(neighbor)
+        #             visited.add(neighbor)
+        #             predecessors[neighbor] = current_vertex
+
+        # # reconstruct the lowest length path from the start vertex to the end vertex.
+
+        # path = [vertex2]  # Initialize the path with the end vertex.
+        # current_vertex = vertex2  # Set the current vertex to the end vertex.
+
+        # # if the end vertex has a predecessor, a path exists.
+
+        # if vertex2 in predecessors:
+        #     # goes until reaching the start_vertex
+        #     while current_vertex != vertex1:
+        #         next_vertex = predecessors[current_vertex]
+        #         path.append(next_vertex)
+        #         current_vertex = next_vertex
+        #     return path
+        # else:
+        #     return None

@@ -118,39 +118,25 @@ class UI:
                 component_string += str(vertex) + " "
             print(component_string)
     def ui_get_find_shotes_path(self):
-        start = int(input("start"))
-        end = int(input("end"))
-        path = lowest_length_path(self._graph, start, end)
-        if path != None:
-            print("Path: ", *path)
-            print(f"Length: {len(path)}")
-        else:
-            print("Path not found !")
+        start = int(input("Start: "))
+        end = int(input("End: "))
+        path = self._graph.find_the_lowest_walk(end, start)
+        print(path)
     
     def ui_Dijkstra(self):
         start = int(input("Start: "))
         end = int(input("End: "))
-        try:
-            (dist, prev) = self._graph.find_the_lowest_cost_walk(start, end)
-            print(dist)
-            walk = []
-            while end != start:
-                walk.append(end)
-                end = prev[end]
-            walk.append(end)
-            walk.reverse()
-            for vertex in walk:
-                print(vertex)
-
-        except Exception as e:
-            print(e)
+        path = self._graph.dijkstra(start, end)
+        if path is None:
+            print(path)
+        else:
+            print("No path found")
+        
     def ui_Prims_algorithm(self):
         start = int(input("Start: "))
-        try:
-            msTree = self._graph.msp_prim(start)
-            print(msTree)
-        except Exception as e:
-            print(e)
+        path = self._graph.msp_prim(start)
+        print(path)
+        
 
 
     def print_menu(self):
@@ -170,9 +156,11 @@ class UI:
         print("14. Get degree out : ")
         print("15. Modify cost : ")
         print("16. Print graph : ")
-        print("17. find the shortest path starting from the end")
-        print("18. Dijkstra : ")
+        print("17. find the shortest path normal:")
+        print("18. Dijkstra's algorithm: ")
         print("19. Prim's algorithm: ")
+        
+
         print("0. Exit.\n")
 
 
