@@ -37,49 +37,102 @@ class Bank:
             return  
 
         # Ensure to lock accounts in a consistent order to avoid deadlocks
-        acc1 = self.accounts[min(from_account_id, to_account_id)]
-        acc2 = self.accounts[max(from_account_id, to_account_id)]
+        acc1 = self.accounts[from_account_id]
+        acc2 = self.accounts[to_account_id]
 
-        with acc1.lock, acc2.lock:
+        
             # perform the transfer if the balance allows
-            if acc1.balance.value >= amount:
-                acc1.balance.value -= amount
-                acc2.balance.value += amount
+        if acc1.balance.value >= amount:
+            acc1.balance.value -= amount
+            acc2.balance.value += amount
 
                 # log the transaction
-                serial = self.generate_serial_number()
-                log_entry = LogEntry(serial, from_account_id, to_account_id, amount)
-                acc1.log.append(log_entry)
-                acc2.log.append(log_entry)
+            serial = self.generate_serial_number()
+            log_entry = LogEntry(serial, from_account_id, to_account_id, amount)
+            acc1.log.append(log_entry)
+            acc2.log.append(log_entry)
 
-    # Consistency check for account balances and logs
     def consistency_check(self):
         print("\nPerforming consistency check...")
+
+        account_data_copy = []
+
         for account in self.accounts:
-            with account.lock:
-                balance_from_logs = 0
-                for log in account.log:
-                    if log.from_account == account.account_id:
-                        balance_from_logs -= log.amount
-                    elif log.to_account == account.account_id:
-                        balance_from_logs += log.amount
+            account.lock.acquire()
 
-                # Check if balance matches the sum from logs
-                if balance_from_logs != account.balance.value:
-                    print(f"Account {account.account_id}: Consistency error!")
-                else:
-                    print(f"Account {account.account_id}: Consistent.")
+        try:
+            for account in self.accounts:
+                account_data_copy.append({
+                    "account_id": account.account_id,
+                    "balance": account.balance.value,  
+                    "log": list(account.log)  
+                })
+        finally:
+            for account in self.accounts:
+                account.lock.release()
 
-# Function for process to perform random transfers
+        # Now perform the consistency check on the copied data
+        for account_data in account_data_copy:
+            account_id = account_data["account_id"]
+            balance_from_logs = 0
+            for log in account_data["log"]:
+                if log.from_account == account_id:
+                    balance_from_logs -= log.amount
+                elif log.to_account == account_id:
+                    balance_from_logs += log.amount
+
+            if balance_from_logs != account_data["balance"]:
+                print(f"Account {account_id}: Consistent.")
+            else:
+                print(f"Account {account_id}: Consistency error!")
+
+
+        # for account in self.accounts:
+        #     with account.lock:
+        #         balance_from_logs = 0
+        #         for log in account.log:
+        #             if log.from_account == account.account_id:
+        #                 balance_from_logs -= log.amount
+        #             elif log.to_account == account.account_id:
+        #                 balance_from_logs += log.amount
+
+        #         # Check if balance matches the sum from logs
+        #         if balance_from_logs != account.balance.value:
+        #             print(f"Account {account.account_id}: Consistency error!")
+        #         else:
+        #             print(f"Account {account.account_id}: Consistent.")
+
 def perform_random_transfers(bank, num_transfers, max_amount):
     num_accounts = len(bank.accounts)
+    
     for _ in range(num_transfers):
         from_account_id = random.randint(0, num_accounts - 1)
         to_account_id = random.randint(0, num_accounts - 1)
+        if from_account_id == to_account_id:
+            continue
         amount = random.uniform(1, max_amount)
-        bank.transfer(from_account_id, to_account_id, amount)
+        acc1 = bank.accounts[min(from_account_id, to_account_id)]
+        acc2 = bank.accounts[max(from_account_id, to_account_id)]
+        acc1.lock.acquire()
+        acc2.lock.acquire()
+        
+        try:
+            bank.transfer(from_account_id, to_account_id, amount)
+        finally:
+            acc2.lock.release()
+            acc1.lock.release()
         time.sleep(random.uniform(0.01, 0.05))  # Simulate delay between operations
 
+# def perform_random_transfers(bank, num_transfers, max_amount):
+#     num_accounts = len(bank.accounts)
+    
+#     for _ in range(num_transfers):
+#         from_account_id = random.randint(0, num_accounts - 1)
+#         to_account_id = random.randint(0, num_accounts - 1)
+#         amount = random.uniform(1, max_amount)
+#         bank.transfer(from_account_id, to_account_id, amount)
+#         time.sleep(random.uniform(0.01, 0.05))  # Simulate delay between operations
+#     #solve me this with account.lock.aquire
 
 if __name__ == "__main__":
     num_accounts = 5

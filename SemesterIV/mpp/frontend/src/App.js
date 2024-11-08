@@ -34,7 +34,7 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path='/' element={<LoginPage />} />
+        {/* <Route path='/' element={<LoginPage />} /> */}
         <Route path="/bird" element={<BirdPage birds= {birds} setBirds= {setBirds} totalCount={totalCountNush} />} />
         <Route path = "/bird/:id" element = {<ViewBirdPage birds= {birds} setBirds= {setBirds} /> }/>
       
